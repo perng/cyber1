@@ -1,3 +1,7 @@
+#!/bin/bash
+
+# run by "sudo solution.sh"
+
 nano /etc/apt/sources.list #check for malicious sources
 nano /etc/resolv.conf #make sure if safe, use 8.8.8.8 for name server
 nano /etc/hosts #make sure is not redirecting
